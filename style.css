@@ -1,0 +1,86 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+/* Style the Output Page link */
+header a{
+    color:antiquewhite; /* Text color */
+    text-decoration:#ddd; /* Remove underlines from links */
+    font-weight: bold; /* Make the text bold */
+    margin-right: 100px; /* Add some margin to the right */
+}
+body.in{
+    background: url("bg2.png");
+    background-size: 100%;
+    background-position: 0px 15px;
+}
+body.out{
+    background: url("bg4.jfif");
+    background-size: 100%;
+    background-position: 0px 15px;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+div.register{
+   
+    background-color:beige;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    border:1px soid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px;
+    rgba(0,0,0,0.3);
+    color:indigo;
+    line-height: 1.6;
+}
+.form#register{
+    margin:100px;
+}
+label{
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+input#name{
+    margin-left: 40px;
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    padding:7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px;
+    rgba(0,0,0,0.3);
+}
+input#submit{
+    width: 150px;
+    padding: 7px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color:floralwhite;
+    color:indigo;
+    cursor:pointer;
+    border:2px solid;
+    box-shadow: 1px 1px 5px rgba(255,255,255,0.3);
+    margin-bottom: 20px;
+ }
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(255,255,255,0.3);
+}
+footer{
+    position:fixed;
+    right: 50px;
+    top: 700px;
+    color: white;
+  }
